@@ -4,7 +4,6 @@
 window.onload = function () {
 
     let txt = document.getElementById("txt");
-    console.log(txt);
     txt.onfocus = function () {
         if (this.value == "请输入关键字") {
             this.value = "";
@@ -25,15 +24,12 @@ function initTab() {
     let childBox = parentBox.querySelector('ul');
     let parentBoxWidth = parentBox.offsetWidth;
     let childBoxWidth = childBox.offsetWidth;
-    console.log(parentBoxWidth);
-    console.log(childBoxWidth);
     let maxX = 0;
     let minX = parentBoxWidth -childBoxWidth;
     //console.log(maxX);
     let distance = 100;
     let maxSwipt = maxX + distance;
     let minSwipt = minX - distance;
-    console.log(minSwipt);
 //第一步  1 让菜单滑动起来
     let startX = 0;
     let moveX = 0;
