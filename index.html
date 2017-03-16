@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <title></title>
+    <!--引入第三方样式-->
+    <link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.min.css"/>
+    <!--引用样式重置文件-->
+    <link rel="stylesheet/less" href="./css/base.less"/>
+    <!--引用自己的样式文件-->
+    <link rel="stylesheet/less" href="./css/index.less"/>
+    <!--引用less.js-->
+    <script src="./lib/less/less.min.js"></script>
+</head>
+<body>
+    <!--公共头部开始-->
+    <header class="ts1-1_header container">
+        <div class='warp'>
+            <div class='left'>
+                <img src="./images/logo.png" alt="" class=""/>
+            </div>
+            <div class='right'>
+                <div class="right_box">
+                    <input type="text"  placeholder="请输入关键字" id="txt" />
+                    <p class="glyphicon glyphicon-search"></p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--公共头部结束-->
+    <section class="ts1-1_main container">
+            <div class="ts1-1_main_box">
+                <div class="slide">
+                    <!-- Nav tabs -->
+                    <ul class="nav nav-tabs" role="tablist">
+                        <li class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">全部</a>
+                        </li>
+                        <li><a href="#profile" aria-controls="home" role="tab" data-toggle="tab">婚姻</a>
+                        </li>
+                        <li><a href="#messages" aria-controls="home" role="tab" data-toggle="tab">恋爱</a>
+                        </li>
+                        <li><a href="#settings" aria-controls="home" role="tab" data-toggle="tab">家庭关系</a>
+                        </li>
+                        <li><a href="#settings" aria-controls="home" role="tab" data-toggle="tab">人际关系</a>
+                        </li>
+                        <li><a href="#settings" aria-controls="home" role="tab" data-toggle="tab">个人成长</a>
+                        </li>
+                        <li><a href="#settings" aria-controls="home" role="tab" data-toggle="tab">身心健康</a>
+                        </li>
+                        <li><a href="#settings" aria-controls="home" role="tab" data-toggle="tab">职场</a>
+                        </li>
+                        <li><a href="#settings" aria-controls="home" role="tab" data-toggle="tab">性心理</a>
+                        </li>
+                        <li><a href="#settings" aria-controls="home" role="tab" data-toggle="tab">亲子</a>
+                        </li>
+                        <li><a href="#settings" aria-controls="home" role="tab" data-toggle="tab">人格</a>
+                        </li>
+                    </ul>
+                </div>
+                <!--轮播图开始-->
+                <div class="ts1-1_banner container">
+                    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+                        </ol>
+                        <style>
+
+                        </style>
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                                <!--<a class="pc_img hidden-xs" href="#" style=" background-image: url(images/banner1.jpg)"></a>-->
+                                <a class="m_img "href="#">
+                                    <img src="images/banner1.jpg" alt="...">
+                                </a>
+
+                            </div>
+                            <div class="item">
+                                <!--<a class="pc_img hidden-xs" href="#" style=" background-image: url(images/banner2.jpg)"></a>-->
+                                <a class="m_img "href="#">
+                                    <img src="images/banner2.jpg" alt="...">
+                                </a>
+                            </div>
+                            <div class="item">
+                                <!--<a class="pc_img hidden-xs" href="#" style=" background-image: url(images/banner3.jpg)"></a>-->
+                                <a class="m_img"href="#">
+                                    <img src="images/banner3.jpg" alt="...">
+                                </a>
+                            </div>
+                            <div class="item">
+                                <!--<a class="pc_img hidden-xs" href="#" style=" background-image: url(images/banner4.jpg)"></a>-->
+                                <a class="m_img"href="#">
+                                    <img src="images/banner4.jpg" alt="...">
+                                </a>
+                            </div>
+                            <div class="item">
+                                <!--<a class="pc_img hidden-xs" href="#" style=" background-image: url(images/banner5.jpg)"> </a>-->
+                                <a class="m_img     "href="#">
+                                    <img src="images/banner5.jpg" alt="...">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--轮播图结束-->
+                <!-- Tab panes -->
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="home">
+                        <div class="items fixed">
+                            <div class="pbox">
+                                <a href="">
+                                    <img src="./images/head.jpg" width="50" height="50" alt="天使_10086" hover="true">
+                                    <p>伤心的芈月</p>
+                                </a>
+                            </div>
+                            <div class="ask_show">
+                                <a href="./index%20-%20副本.html"><b>怎样知道对方是爱你的？</b></a><br>
+                                我失恋后情绪处在低谷期，作为一个朋友，他没有嫌弃我，一直在陪伴我，以一个朋友的身份陪我聊天，陪我逛街，陪我看电影，4个月啦，我渐渐的从失恋中恢复，可是我发现我越来越依赖他，当想进一步我们关系的时候，由于我的尴尬身份，又觉得我配不上他，所以一直未敢做出出格的举动。马上情人节啦，他变得对我冷淡了许多，不知道自己太过敏感，还是经过了4个月，他已经对我放弃了，目前我怎么做才知道他是否爱我？<span class="fgrey">(<a href="#">10回答</a>)</span>
+                                <p class="tool">来自 &nbsp;
+                                    <a href="#">天使_10086</a> &nbsp;
+                                    <a href="#" class="answer">我来回答</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="empty"></div>
+                        <div class="items fixed">
+                            <div class="pbox">
+                                <a href="">
+                                    <img src="./images/head.jpg" width="50" height="50" alt="天使_10086" hover="true">
+                                    <p>伤心的芈月</p>
+                                </a>
+                            </div>
+                            <div class="ask_show">
+                                <a href="#"><b>感觉婚姻要亮黄灯</b></a><br>
+                                我和我老公从相恋到结婚已经6个年头了，现在有一个3岁女儿，
+                                他离过一次婚还带了一个儿子，刚开始交往的时候感觉也没什么，
+                                他和他妈也说不用我们过问太多小孩，他妈妈也说...<span class="fgrey">(<a href="#">10回答</a>)</span>
+                                <p class="tool">来自 &nbsp;
+                                    <a href="#">天使_10086</a> &nbsp;
+                                    <a href="#" class="answer">我来回答</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="empty"></div>
+                        <div class="items fixed">
+                            <div class="pbox">
+                                <a href="">
+                                    <img src="./images/head.jpg" width="50" height="50" alt="天使_10086" hover="true">
+                                    <p>伤心的芈月</p>
+                                </a>
+                            </div>
+                            <div class="ask_show">
+                                <a href="./index%20-%20副本.html"><b>感觉婚姻要亮黄灯</b></a><br>
+                                我和我老公从相恋到结婚已经6个年头了，现在有一个3岁女儿，
+                                他离过一次婚还带了一个儿子，刚开始交往的时候感觉也没什么，
+                                他和他妈也说不用我们过问太多小孩，他妈妈也说...<span class="fgrey">(<a href="#">10回答</a>)</span>
+                                <p class="tool">来自 &nbsp;
+                                    <a href="#">天使_10086</a> &nbsp;
+                                    <a href="#" class="answer">我来回答</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="empty"></div>
+                        <div class="items fixed">
+                            <div class="pbox">
+                                <a href="">
+                                    <img src="./images/head.jpg" width="50" height="50" alt="天使_10086" hover="true">
+                                    <p>伤心的芈月</p>
+                                </a>
+                            </div>
+                            <div class="ask_show">
+                                <a href="./index%20-%20副本.html"><b>感觉婚姻要亮黄灯</b></a><br>
+                                我和我老公从相恋到结婚已经6个年头了，现在有一个3岁女儿，
+                                他离过一次婚还带了一个儿子，刚开始交往的时候感觉也没什么，
+                                他和他妈也说不用我们过问太多小孩，他妈妈也说...<span class="fgrey">(<a href="#">10回答</a>)</span>
+                                <p class="tool">来自 &nbsp;
+                                    <a href="#">天使_10086</a> &nbsp;
+                                    <a href="#" class="answer">我来回答</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div role="tabpanel" class="tab-pane" id="profile">
+                        <div class="items fixed">
+                            <div class="pbox">
+                                <a href="">
+                                    <img src="./images/head1.jpg" width="50" height="50" alt="天使_10086" hover="true">
+                                    <p>伤心的芈月</p>
+                                </a>
+                            </div>
+                            <div class="ask_show">
+                                <a href="./index%20-%20副本.html"><b>怎样拒绝自己不喜欢的女孩子</b></a><br>
+                                有个女孩子喜欢我很久了，但是我却一点都不喜欢她。她知道我不喜欢她，但是我一要拒绝的时候，她就很伤心。我也不知怎么办，她喜欢我已经快1年了.我该怎么拒绝她，又不让难过。<span class="fgrey">(<a href="#">10回答</a>)</span>
+                                <p class="tool">来自 &nbsp;
+                                    <a href="#">天使_10000</a> &nbsp;
+                                    <a href="#" class="answer">我来回答</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="empty"></div>
+                        <div class="items fixed">
+                            <div class="pbox">
+                                <a href="">
+                                    <img src="./images/head1.jpg" width="50" height="50" alt="天使_10086" hover="true">
+                                    <p>伤心的芈月</p>
+                                </a>
+                            </div>
+                            <div class="ask_show">
+                                <a href="./index%20-%20副本.html"><b>怎样拒绝自己不喜欢的女孩子</b></a><br>
+                                有个女孩子喜欢我很久了，但是我却一点都不喜欢她。她知道我不喜欢她，但是我一要拒绝的时候，她就很伤心。我也不知怎么办，她喜欢我已经快1年了.我该怎么拒绝她，又不让难过。<span class="fgrey">(<a href="#">10回答</a>)</span>
+                                <p class="tool">来自 &nbsp;
+                                    <a href="#">天使_10000</a> &nbsp;
+                                    <a href="#" class="answer">我来回答</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="empty"></div>
+                        <div class="items fixed">
+                            <div class="pbox">
+                                <a href="">
+                                    <img src="./images/head.jpg" width="50" height="50" alt="天使_10086" hover="true">
+                                    <p>伤心的芈月</p>
+                                </a>
+                            </div>
+                            <div class="ask_show">
+                                <a href="./index%20-%20副本.html"><b>感觉婚姻要亮黄灯</b></a><br>
+                                我和我老公从相恋到结婚已经6个年头了，现在有一个3岁女儿，
+                                他离过一次婚还带了一个儿子，刚开始交往的时候感觉也没什么，
+                                他和他妈也说不用我们过问太多小孩，他妈妈也说...<span class="fgrey">(<a href="#">10回答</a>)</span>
+                                <p class="tool">来自 &nbsp;
+                                    <a href="#">天使_10086</a> &nbsp;
+                                    <a href="#" class="answer">我来回答</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="empty"></div>
+                        <div class="items fixed">
+                            <div class="pbox">
+                                <a href="">
+                                    <img src="./images/head1.jpg" width="50" height="50" alt="天使_10086" hover="true">
+                                    <p>伤心的芈月</p>
+                                </a>
+                            </div>
+                            <div class="ask_show">
+                                <a href="./index%20-%20副本.html"><b>怎样拒绝自己不喜欢的女孩子</b></a><br>
+                                有个女孩子喜欢我很久了，但是我却一点都不喜欢她。她知道我不喜欢她，但是我一要拒绝的时候，她就很伤心。我也不知怎么办，她喜欢我已经快1年了.我该怎么拒绝她，又不让难过。<span class="fgrey">(<a href="#">10回答</a>)</span>
+                                <p class="tool">来自 &nbsp;
+                                    <a href="#">天使_10000</a> &nbsp;
+                                    <a href="#" class="answer">我来回答</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div role="tabpanel" class="tab-pane" id="messages">
+                        <div class="items fixed">
+                            <div class="pbox">
+                                <a href="">
+                                    <img src="./images/head2.jpg" width="50" height="50" alt="天使_10086" hover="true">
+                                    <p>伤心的芈月</p>
+                                </a>
+                            </div>
+                            <div class="ask_show">
+                                <a href="./index%20-%20副本.html"><b>感觉婚姻要亮黄灯</b></a><br>
+                                我和我老公从相恋到结婚已经6个年头了，现在有一个3岁女儿，
+                                他离过一次婚还带了一个儿子，刚开始交往的时候感觉也没什么，
+                                他和他妈也说不用我们过问太多小孩，他妈妈也说...<span class="fgrey">(<a href="#">10回答</a>)</span>
+                                <p class="tool">来自 &nbsp;
+                                    <a href="#">天使_10086</a> &nbsp;
+                                    <a href="#" class="answer">我来回答</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="empty"></div>
+                        <div class="items fixed">
+                            <div class="pbox">
+                                <a href="">
+                                    <img src="./images/head.jpg" width="50" height="50" alt="天使_10086" hover="true">
+                                    <p>伤心的芈月</p>
+                                </a>
+                            </div>
+                            <div class="ask_show">
+                                <a href="./index%20-%20副本.html"><b>感觉婚姻要亮黄灯</b></a><br>
+                                我和我老公从相恋到结婚已经6个年头了，现在有一个3岁女儿，
+                                他离过一次婚还带了一个儿子，刚开始交往的时候感觉也没什么，
+                                他和他妈也说不用我们过问太多小孩，他妈妈也说...<span class="fgrey">(<a href="#">10回答</a>)</span>
+                                <p class="tool">来自 &nbsp;
+                                    <a href="#">天使_10086</a> &nbsp;
+                                    <a href="#" class="answer">我来回答</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="empty"></div>
+                        <div class="items fixed">
+                            <div class="pbox">
+                                <a href="">
+                                    <img src="./images/head3.jpg" width="50" height="50" alt="天使_10086" hover="true">
+                                    <p>伤心的芈月</p>
+                                </a>
+                            </div>
+                            <div class="ask_show">
+                                <a href="./index%20-%20副本.html"><b>感觉婚姻要亮黄灯</b></a><br>
+                                我和我老公从相恋到结婚已经6个年头了，现在有一个3岁女儿，
+                                他离过一次婚还带了一个儿子，刚开始交往的时候感觉也没什么，
+                                他和他妈也说不用我们过问太多小孩，他妈妈也说...<span class="fgrey">(<a href="#">10回答</a>)</span>
+                                <p class="tool">来自 &nbsp;
+                                    <a href="#">天使_10086</a> &nbsp;
+                                    <a href="#" class="answer">我来回答</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="empty"></div>
+                        <div class="items fixed">
+                            <div class="pbox">
+                                <a href="">
+                                    <img src="./images/head.jpg" width="50" height="50" alt="天使_10086" hover="true">
+                                    <p>伤心的芈月</p>
+                                </a>
+                            </div>
+                            <div class="ask_show">
+                                <a href="./index%20-%20副本.html"><b>感觉婚姻要亮黄灯</b></a><br>
+                                我和我老公从相恋到结婚已经6个年头了，现在有一个3岁女儿，
+                                他离过一次婚还带了一个儿子，刚开始交往的时候感觉也没什么，
+                                他和他妈也说不用我们过问太多小孩，他妈妈也说...<span class="fgrey">(<a href="#">10回答</a>)</span>
+                                <p class="tool">来自 &nbsp;
+                                    <a href="#">天使_10086</a> &nbsp;
+                                    <a href="#" class="answer">我来回答</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div role="tabpanel" class="tab-pane" id="settings">
+                        <div class="items fixed">
+                            <div class="pbox">
+                                <a href="">
+                                    <img src="./images/head2.jpg" width="50" height="50" alt="天使_10086" hover="true">
+                                    <p>伤心的芈月</p>
+                                </a>
+                            </div>
+                            <div class="ask_show">
+                                <a href="./index%20-%20副本.html"><b>怎样知道对方是爱你的？</b></a><br>
+                                我失恋后情绪处在低谷期，作为一个朋友，他没有嫌弃我，一直在陪伴我，以一个朋友的身份陪我聊天，陪我逛街，陪我看电影，4个月啦，我渐渐的从失恋中恢复，可是我发现我越来越依赖他，当想进一步我们关系的时候，由于我的尴尬身份，又觉得我配不上他，所以一直未敢做出出格的举动。马上情人节啦，他变得对我冷淡了许多，不知道自己太过敏感，还是经过了4个月，他已经对我放弃了，目前我怎么做才知道他是否爱我？<span class="fgrey">(<a href="#">10回答</a>)</span>
+                                <p class="tool">来自 &nbsp;
+                                    <a href="#">天使_10086</a> &nbsp;
+                                    <a href="#" class="answer">我来回答</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="empty"></div>
+                        <div class="items fixed">
+                            <div class="pbox">
+                                <a href="">
+                                    <img src="./images/head2.jpg" width="50" height="50" alt="天使_10086" hover="true">
+                                    <p>伤心的芈月</p>
+                                </a>
+                            </div>
+                            <div class="ask_show">
+                                <a href="./index%20-%20副本.html"><b>怎样知道对方是爱你的？</b></a><br>
+                                我失恋后情绪处在低谷期，作为一个朋友，他没有嫌弃我，一直在陪伴我，以一个朋友的身份陪我聊天，陪我逛街，陪我看电影，4个月啦，我渐渐的从失恋中恢复，可是我发现我越来越依赖他，当想进一步我们关系的时候，由于我的尴尬身份，又觉得我配不上他，所以一直未敢做出出格的举动。马上情人节啦，他变得对我冷淡了许多，不知道自己太过敏感，还是经过了4个月，他已经对我放弃了，目前我怎么做才知道他是否爱我？<span class="fgrey">(<a href="#">10回答</a>)</span>
+                                <p class="tool">来自 &nbsp;
+                                    <a href="#">天使_10086</a> &nbsp;
+                                    <a href="#" class="answer">我来回答</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="empty"></div>
+                        <div class="items fixed">
+                            <div class="pbox">
+                                <a href="">
+                                    <img src="./images/head.jpg" width="50" height="50" alt="天使_10086" hover="true">
+                                    <p>伤心的芈月</p>
+                                </a>
+                            </div>
+                            <div class="ask_show">
+                                <a href="./index%20-%20副本.html"><b>感觉婚姻要亮黄灯</b></a><br>
+                                我和我老公从相恋到结婚已经6个年头了，现在有一个3岁女儿，
+                                他离过一次婚还带了一个儿子，刚开始交往的时候感觉也没什么，
+                                他和他妈也说不用我们过问太多小孩，他妈妈也说...<span class="fgrey">(<a href="#">10回答</a>)</span>
+                                <p class="tool">来自 &nbsp;
+                                    <a href="#">天使_10086</a> &nbsp;
+                                    <a href="#" class="answer">我来回答</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="empty"></div>
+                        <div class="items fixed">
+                            <div class="pbox">
+                                <a href="">
+                                    <img src="./images/head.jpg" width="50" height="50" alt="天使_10086" hover="true">
+                                    <p>伤心的芈月</p>
+                                </a>
+                            </div>
+                            <div class="ask_show">
+                                <a href="./index%20-%20副本.html"><b>感觉婚姻要亮黄灯</b></a><br>
+                                我和我老公从相恋到结婚已经6个年头了，现在有一个3岁女儿，
+                                他离过一次婚还带了一个儿子，刚开始交往的时候感觉也没什么，
+                                他和他妈也说不用我们过问太多小孩，他妈妈也说...<span class="fgrey">(<a href="#">10回答</a>)</span>
+                                <p class="tool">来自 &nbsp;
+                                    <a href="#">天使_10086</a> &nbsp;
+                                    <a href="#" class="answer">我来回答</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+    </section>
+    <!--公共底部开始-->
+    <footer class="container ts1-1_footer">
+        <ul>
+            <li>
+                <a href="#"  class="glyphicon glyphicon-heart">天使帮</a>
+            </li>
+            <li>
+                <a href="./baicaijia.html"  class="glyphicon glyphicon-book">天使文</a>
+            </li>
+            <li>
+                <a href="./login_zp.html"  class="glyphicon glyphicon-user">我的帮</a>
+            </li>
+
+        </ul>
+    </footer>
+    <!--公共底部结束-->
+
+
+
+</body>
+<!--引用jq-->
+<script src="./lib/jquery/jquery.js"></script>
+<!--引用bootstrap.js-->
+<script src="./lib/bootstrap/js/bootstrap.min.js"></script>
+<!--引用template.js-->
+<script src="./lib/template/template.js"></script>
+<!--引用自己的js-->
+<script src="./js/index.js"></script>
+
+
+
+</html>

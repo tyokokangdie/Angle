@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <title>
+        文章详情
+
+    </title>
+    <!-- 引入bootstarp -->
+    <link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.css"/>
+    <!-- 引入重置样式 -->
+    <link rel="stylesheet/less" href="./css/base.css"/>
+    <!-- 引入自己的样式 -->
+    <link rel="stylesheet/less" href="css/discount.less"/>
+    <!-- 引入less.js -->
+    <script src="./lib/less/less.min.js"></script>
+    <!-- icon小图标 -->
+    <link rel="shortcut icon" href="./images/bitbug_favicon.ico"/>
+</head>
+<body style="background: #f2f2f2">
+
+<!--头部-->
+<header id="header">
+    <div class="back fl">
+        <a href="baicaijia.html" class="icon icon-back"></a>
+    </div>
+    <h1>文章详情</h1>
+
+</header>
+
+
+<!-- 主体 -->
+<div class="main">
+    <div class="container">
+
+    </div>
+</div>
+
+
+<!-- 底部 -->
+<footer class="container ts1-1_footer">
+    <ul>
+        <li>
+            <a href="./index.html"  class="glyphicon glyphicon-heart">天使帮</a>
+        </li>
+        <li>
+            <a href="./baicaijia.html"  class="glyphicon glyphicon-book">天使文</a>
+        </li>
+        <li>
+            <a href="./login_zp.html"  class="glyphicon glyphicon-user">我的帮</a>
+        </li>
+
+    </ul>
+</footer>
+
+
+</body>
+<!-- 引用模板引擎 -->
+<script type="text/template" id="template">
+    {{each result as value i}}
+    <div class="top-content">
+        <h3>{{value.productName}}</h3>
+
+        <div class="info">
+            <span>文章发表于{{value.productTime}}</span>
+            <span class="glyphicon glyphicon-eye-open">{{value.productTips}}</span>
+        </div>
+        <div class="content clearfix">
+
+            <div class="img2">
+
+
+                <p>
+                    {{#value.productImg}}
+                </p>
+                <p>{{value.productInfo}}</p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="bootom" style="background: #fff">
+        {{#value.productComment}}
+    </div>
+    {{/each}}
+</script>
+<!-- 引用jq -->
+<script src="./lib/jquery/jquery.js"></script>
+<!-- 引入bootstrap.js -->
+<script src="./lib/bootstrap/js/bootstrap.js"></script>
+<!-- 引用模板 -->
+<script src="./lib/template/template.js"></script>
+<!-- 引用自己的js -->
+<script src="./js/gnzk_zxp_fy.js"></script>
+</html>

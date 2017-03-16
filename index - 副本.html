@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <title></title>
+    <!--引入第三方样式-->
+    <link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.min.css"/>
+    <!--引用样式重置文件-->
+    <link rel="stylesheet/less" href="./css/base.less"/>
+    <!--引用自己的样式文件-->
+    <link rel="stylesheet/less" href="./css/index%20-%20副本.less"/>
+    <!--引用less.js-->
+    <script src="./lib/less/less.min.js"></script>
+</head>
+<body>
+<!--公共头部开始-->
+<header class="ts1-1_header container">
+    <div class='warp'>
+        <div class='left fl'>
+            <a href="./index.html">
+                <img src="./images/logo.png" alt="" class="fl"/>
+            </a>
+
+        </div>
+        <div class='right fr'>
+            <div class="right_box">
+                <input type="text" value="请输入关键字" id="txt"/>
+
+                <p class="glyphicon glyphicon-search"></p>
+            </div>
+        </div>
+    </div>
+</header>
+<!--公共头部结束-->
+<section class="ts1-1_main container">
+    <div class="items fixed">
+        <div class="pbox">
+            <a href="">
+                <img src="./images/head2.jpg" width="50" height="50" alt="天使_10086" hover="true">
+
+                <p>伤心的芈月</p>
+            </a>
+        </div>
+        <div class="ask_show">
+            <a href="#"><b>怎样知道对方是爱你的？</b></a><br>
+            我失恋后情绪处在低谷期，作为一个朋友，他没有嫌弃我，一直在陪伴我，以一个朋友的身份陪我聊天，陪我逛街，陪我看电影，4个月啦，我渐渐的从失恋中恢复，可是我发现我越来越依赖他，当想进一步我们关系的时候，由于我的尴尬身份，又觉得我配不上他，所以一直未敢做出出格的举动。马上情人节啦，他变得对我冷淡了许多，不知道自己太过敏感，还是经过了4个月，他已经对我放弃了，目前我怎么做才知道他是否爱我？<span
+                class="fgrey">(<a href="#">10回答</a>)</span>
+
+            <p class="tool">来自 &nbsp;
+                <a href="#">天使_10086</a> &nbsp;
+                <a href="#" class="answer">我来回答</a>
+            </p>
+        </div>
+    </div>
+    <div class="empty"></div>
+    <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="right" title="10级天使">天使助手
+    </button>
+    <div id="id_answer_list" class="answer_list">
+        <div id="id_answer_5311416" class="items fixed">
+            <div class="face"><a href="#/">
+                <img src="./images/head3.jpg" width="50" height="50" hover="true" alt="顾薇巍" data-bd-imgshare-binded="1">
+            </a>
+            </div>
+            <div class="answer_box">
+                <div class="utool">
+                    <a href="#">顾薇巍</a> &nbsp;2016-11-18 09:35
+                </div>
+                <button type="button" class="btn btn-default"
+                        data-container="body" data-toggle="popover"
+                        data-placement="bottom"
+                        data-content=" 我觉得最烂的借口就是“你很好”，
+                            “你需要找到一个适合你的人”等等，相反，告诉他被她喜欢你感到很开心，
+                            甚至很荣幸，很感谢她的喜欢，也欣赏她的勇敢表达，
+                            表示钦佩，直接告诉她你不喜欢她，她不是你喜欢的类型就好。
+                            如果她能够接受做朋友，希望她能够保持朋友的界限，
+                            不要越过朋友的界限给自己压力，如果她不想做普通朋友也接受她的选择，
+                            但是你会永远记着她。我都被自己感动了……">
+                    我要帮助
+                </button>
+
+                <div class="topic">
+                    <a href="#" class="addtopic" onclick="return toggleReply(this)"><span>1</span>条讨论</a> &nbsp;
+                    <a href="/5311416/vote/" class="goodtotal" onclick="return doVote(this)">有用 <span>15</span></a>
+                </div>
+                <!---新加入分隔线-->
+
+            </div>
+        </div>
+    </div>
+    <div class="empty"></div>
+    <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="right" title="99级天使">天使助手
+    </button>
+    <div id="id_ans" class="answer_list">
+        <div id="id_answer" class="items fixed">
+            <div class="face"><a href="#/">
+                <img src="./images/head3.jpg" width="50" height="50" hover="true" alt="叮当猫" data-bd-imgshare-binded="1">
+            </a>
+            </div>
+            <div class="answer_box">
+                <div class="utool">
+                    <a href="#">叮当猫</a> &nbsp;2016-11-18 09:35
+                </div>
+                <button type="button" class="btn btn-default"
+                        data-container="body" data-toggle="popover"
+                        data-placement="bottom"
+                        data-content=" 你可以跟他说‘我很感谢你在我失恋期间陪我走出低谷，
+                            希望我们的友谊天长地久。’他要是同意呢，就是现在没有爱上你，他要是不同意呢，
+                            ——有可能哦。即不伤人家大家闺秀的面子，又能问出自己想说的。
+                            就算不成也还可以做朋友。你说呢？">
+                    我要帮助
+                </button>
+                <div class="topic">
+                    <a href="#" class="addtopic" onclick="return toggleReply(this)"><span>1</span>条讨论</a> &nbsp;
+                    <a href="/5311416/vote/" class="goodtotal" onclick="return doVote(this)">有用 <span>15</span></a>
+                </div>
+                <!---新加入分隔线-->
+            </div>
+        </div>
+    </div>
+</section>
+<!--公共底部开始-->
+<footer class="container ts1-1_footer">
+    <div class="input-group">
+        <input type="text" class="form-control" placeholder="我来回答…………">
+      <span class="input-group-btn">
+        <button class="btn btn-default" type="button">发送</button>
+      </span>
+    </div>
+</footer>
+<!--公共底部结束-->
+</body>
+<!--引用jq-->
+<script src="./lib/jquery/jquery.js"></script>
+<!--引用bootstrap.js-->
+<script src="./lib/bootstrap/js/bootstrap.min.js"></script>
+<!--引用template.js-->
+<script src="./lib/template/template.js"></script>
+<!--引用自己的js-->
+<script src="./js/index%20-%20副本.js"></script>
+
+
+</html>
